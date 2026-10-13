@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "orbital_skybender",
+  "version": "${version}",
+  "name": "OrbitalSkybender",
+  "description": "Fabric port of the TNT-themed OrbitalSkybender abilities.",
+  "authors": ["AvoidMyExplosive"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.avoid.skybendermod.OrbitalSkybenderMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
